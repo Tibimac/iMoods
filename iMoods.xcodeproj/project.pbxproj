@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52081AA519688CB4009EB9E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52081AA419688CB4009EB9E0 /* Foundation.framework */; };
+		52081AA719688CB4009EB9E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52081AA619688CB4009EB9E0 /* CoreGraphics.framework */; };
+		52081AA919688CB4009EB9E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52081AA819688CB4009EB9E0 /* UIKit.framework */; };
+		52081AAF19688CB4009EB9E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52081AAD19688CB4009EB9E0 /* InfoPlist.strings */; };
+		52081AB119688CB4009EB9E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52081AB019688CB4009EB9E0 /* main.m */; };
+		52081AB519688CB4009EB9E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52081AB419688CB4009EB9E0 /* AppDelegate.m */; };
+		52081AB719688CB4009EB9E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52081AB619688CB4009EB9E0 /* Images.xcassets */; };
+		52081ABE19688CB5009EB9E0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52081ABD19688CB5009EB9E0 /* XCTest.framework */; };
+		52081ABF19688CB5009EB9E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52081AA419688CB4009EB9E0 /* Foundation.framework */; };
+		52081AC019688CB5009EB9E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52081AA819688CB4009EB9E0 /* UIKit.framework */; };
+		52081AC819688CB5009EB9E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52081AC619688CB5009EB9E0 /* InfoPlist.strings */; };
+		52081ACA19688CB5009EB9E0 /* iMoodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52081AC919688CB5009EB9E0 /* iMoodsTests.m */; };
+		52081AD519688E84009EB9E0 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 52081AD419688E84009EB9E0 /* Settings.bundle */; };
+		524326BD1969959C008B09D4 /* FriendsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524326BC1969959C008B09D4 /* FriendsTableViewController.m */; };
+		524326C0196996BD008B09D4 /* MyMoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524326BF196996BD008B09D4 /* MyMoodViewController.m */; };
+		524326C3196996D5008B09D4 /* MyMoodView.m in Sources */ = {isa = PBXBuildFile; fileRef = 524326C2196996D5008B09D4 /* MyMoodView.m */; };
+		524326C61969A71B008B09D4 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 524326C51969A71A008B09D4 /* DataManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52081AC119688CB5009EB9E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52081A9919688CB4009EB9E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52081AA019688CB4009EB9E0;
+			remoteInfo = iMoods;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52081AA119688CB4009EB9E0 /* iMoods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMoods.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52081AA419688CB4009EB9E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		52081AA619688CB4009EB9E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		52081AA819688CB4009EB9E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		52081AAC19688CB4009EB9E0 /* iMoods-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iMoods-Info.plist"; sourceTree = "<group>"; };
+		52081AAE19688CB4009EB9E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52081AB019688CB4009EB9E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52081AB219688CB4009EB9E0 /* iMoods-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iMoods-Prefix.pch"; sourceTree = "<group>"; };
+		52081AB319688CB4009EB9E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52081AB419688CB4009EB9E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52081AB619688CB4009EB9E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52081ABC19688CB5009EB9E0 /* iMoodsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMoodsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52081ABD19688CB5009EB9E0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		52081AC519688CB5009EB9E0 /* iMoodsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iMoodsTests-Info.plist"; sourceTree = "<group>"; };
+		52081AC719688CB5009EB9E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52081AC919688CB5009EB9E0 /* iMoodsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMoodsTests.m; sourceTree = "<group>"; };
+		52081AD419688E84009EB9E0 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		524326BB1969959C008B09D4 /* FriendsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FriendsTableViewController.h; path = Controllers/FriendsTableViewController.h; sourceTree = "<group>"; };
+		524326BC1969959C008B09D4 /* FriendsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FriendsTableViewController.m; path = Controllers/FriendsTableViewController.m; sourceTree = "<group>"; };
+		524326BE196996BD008B09D4 /* MyMoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyMoodViewController.h; path = Controllers/MyMoodViewController.h; sourceTree = "<group>"; };
+		524326BF196996BD008B09D4 /* MyMoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyMoodViewController.m; path = Controllers/MyMoodViewController.m; sourceTree = "<group>"; };
+		524326C1196996D5008B09D4 /* MyMoodView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyMoodView.h; path = Views/MyMoodView.h; sourceTree = "<group>"; };
+		524326C2196996D5008B09D4 /* MyMoodView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyMoodView.m; path = Views/MyMoodView.m; sourceTree = "<group>"; };
+		524326C41969A71A008B09D4 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataManager.h; path = Models/DataManager.h; sourceTree = "<group>"; };
+		524326C51969A71A008B09D4 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataManager.m; path = Models/DataManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52081A9E19688CB4009EB9E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52081AA719688CB4009EB9E0 /* CoreGraphics.framework in Frameworks */,
+				52081AA919688CB4009EB9E0 /* UIKit.framework in Frameworks */,
+				52081AA519688CB4009EB9E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52081AB919688CB5009EB9E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52081ABE19688CB5009EB9E0 /* XCTest.framework in Frameworks */,
+				52081AC019688CB5009EB9E0 /* UIKit.framework in Frameworks */,
+				52081ABF19688CB5009EB9E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52081A9819688CB4009EB9E0 = {
+			isa = PBXGroup;
+			children = (
+				52081AAA19688CB4009EB9E0 /* iMoods */,
+				52081AC319688CB5009EB9E0 /* iMoodsTests */,
+				52081AA319688CB4009EB9E0 /* Frameworks */,
+				52081AA219688CB4009EB9E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52081AA219688CB4009EB9E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52081AA119688CB4009EB9E0 /* iMoods.app */,
+				52081ABC19688CB5009EB9E0 /* iMoodsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52081AA319688CB4009EB9E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52081AA419688CB4009EB9E0 /* Foundation.framework */,
+				52081AA619688CB4009EB9E0 /* CoreGraphics.framework */,
+				52081AA819688CB4009EB9E0 /* UIKit.framework */,
+				52081ABD19688CB5009EB9E0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52081AAA19688CB4009EB9E0 /* iMoods */ = {
+			isa = PBXGroup;
+			children = (
+				52081AB319688CB4009EB9E0 /* AppDelegate.h */,
+				52081AB419688CB4009EB9E0 /* AppDelegate.m */,
+				524326B819699580008B09D4 /* Models */,
+				524326B919699585008B09D4 /* Views */,
+				524326BA1969958B008B09D4 /* Controllers */,
+				52081AD419688E84009EB9E0 /* Settings.bundle */,
+				52081AB619688CB4009EB9E0 /* Images.xcassets */,
+				52081AAB19688CB4009EB9E0 /* Supporting Files */,
+			);
+			path = iMoods;
+			sourceTree = "<group>";
+		};
+		52081AAB19688CB4009EB9E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52081AAC19688CB4009EB9E0 /* iMoods-Info.plist */,
+				52081AAD19688CB4009EB9E0 /* InfoPlist.strings */,
+				52081AB019688CB4009EB9E0 /* main.m */,
+				52081AB219688CB4009EB9E0 /* iMoods-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52081AC319688CB5009EB9E0 /* iMoodsTests */ = {
+			isa = PBXGroup;
+			children = (
+				52081AC919688CB5009EB9E0 /* iMoodsTests.m */,
+				52081AC419688CB5009EB9E0 /* Supporting Files */,
+			);
+			path = iMoodsTests;
+			sourceTree = "<group>";
+		};
+		52081AC419688CB5009EB9E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52081AC519688CB5009EB9E0 /* iMoodsTests-Info.plist */,
+				52081AC619688CB5009EB9E0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		524326B819699580008B09D4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				524326C41969A71A008B09D4 /* DataManager.h */,
+				524326C51969A71A008B09D4 /* DataManager.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		524326B919699585008B09D4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				524326C1196996D5008B09D4 /* MyMoodView.h */,
+				524326C2196996D5008B09D4 /* MyMoodView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		524326BA1969958B008B09D4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				524326BB1969959C008B09D4 /* FriendsTableViewController.h */,
+				524326BC1969959C008B09D4 /* FriendsTableViewController.m */,
+				524326BE196996BD008B09D4 /* MyMoodViewController.h */,
+				524326BF196996BD008B09D4 /* MyMoodViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52081AA019688CB4009EB9E0 /* iMoods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52081ACD19688CB5009EB9E0 /* Build configuration list for PBXNativeTarget "iMoods" */;
+			buildPhases = (
+				52081A9D19688CB4009EB9E0 /* Sources */,
+				52081A9E19688CB4009EB9E0 /* Frameworks */,
+				52081A9F19688CB4009EB9E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMoods;
+			productName = iMoods;
+			productReference = 52081AA119688CB4009EB9E0 /* iMoods.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52081ABB19688CB5009EB9E0 /* iMoodsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52081AD019688CB5009EB9E0 /* Build configuration list for PBXNativeTarget "iMoodsTests" */;
+			buildPhases = (
+				52081AB819688CB5009EB9E0 /* Sources */,
+				52081AB919688CB5009EB9E0 /* Frameworks */,
+				52081ABA19688CB5009EB9E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52081AC219688CB5009EB9E0 /* PBXTargetDependency */,
+			);
+			name = iMoodsTests;
+			productName = iMoodsTests;
+			productReference = 52081ABC19688CB5009EB9E0 /* iMoodsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52081A9919688CB4009EB9E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Tibimac;
+				TargetAttributes = {
+					52081ABB19688CB5009EB9E0 = {
+						TestTargetID = 52081AA019688CB4009EB9E0;
+					};
+				};
+			};
+			buildConfigurationList = 52081A9C19688CB4009EB9E0 /* Build configuration list for PBXProject "iMoods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 52081A9819688CB4009EB9E0;
+			productRefGroup = 52081AA219688CB4009EB9E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52081AA019688CB4009EB9E0 /* iMoods */,
+				52081ABB19688CB5009EB9E0 /* iMoodsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52081A9F19688CB4009EB9E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52081AAF19688CB4009EB9E0 /* InfoPlist.strings in Resources */,
+				52081AD519688E84009EB9E0 /* Settings.bundle in Resources */,
+				52081AB719688CB4009EB9E0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52081ABA19688CB5009EB9E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52081AC819688CB5009EB9E0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52081A9D19688CB4009EB9E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524326C3196996D5008B09D4 /* MyMoodView.m in Sources */,
+				524326BD1969959C008B09D4 /* FriendsTableViewController.m in Sources */,
+				524326C61969A71B008B09D4 /* DataManager.m in Sources */,
+				524326C0196996BD008B09D4 /* MyMoodViewController.m in Sources */,
+				52081AB519688CB4009EB9E0 /* AppDelegate.m in Sources */,
+				52081AB119688CB4009EB9E0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52081AB819688CB5009EB9E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52081ACA19688CB5009EB9E0 /* iMoodsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52081AC219688CB5009EB9E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52081AA019688CB4009EB9E0 /* iMoods */;
+			targetProxy = 52081AC119688CB5009EB9E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52081AAD19688CB4009EB9E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52081AAE19688CB4009EB9E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		52081AC619688CB5009EB9E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52081AC719688CB5009EB9E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52081ACB19688CB5009EB9E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52081ACC19688CB5009EB9E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52081ACE19688CB5009EB9E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMoods/iMoods-Prefix.pch";
+				INFOPLIST_FILE = "iMoods/iMoods-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		52081ACF19688CB5009EB9E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMoods/iMoods-Prefix.pch";
+				INFOPLIST_FILE = "iMoods/iMoods-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		52081AD119688CB5009EB9E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iMoods.app/iMoods";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMoods/iMoods-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iMoodsTests/iMoodsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		52081AD219688CB5009EB9E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iMoods.app/iMoods";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMoods/iMoods-Prefix.pch";
+				INFOPLIST_FILE = "iMoodsTests/iMoodsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52081A9C19688CB4009EB9E0 /* Build configuration list for PBXProject "iMoods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52081ACB19688CB5009EB9E0 /* Debug */,
+				52081ACC19688CB5009EB9E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52081ACD19688CB5009EB9E0 /* Build configuration list for PBXNativeTarget "iMoods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52081ACE19688CB5009EB9E0 /* Debug */,
+				52081ACF19688CB5009EB9E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52081AD019688CB5009EB9E0 /* Build configuration list for PBXNativeTarget "iMoodsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52081AD119688CB5009EB9E0 /* Debug */,
+				52081AD219688CB5009EB9E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52081A9919688CB4009EB9E0 /* Project object */;
+}
