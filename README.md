@@ -1,5 +1,6 @@
 # iMoods
-Exercice "iMoods" de la semaine 9 du MOOC "Programmation iPhone et iPad". Réalisation : 05 juillet 2014
+Exercice "iMoods" de la semaine 9 du MOOC "Programmation iPhone et iPad".<br/>
+Réalisation : 05 juillet 2014
 
 [![iMoods](http://www.tibimac.com/uploads_forums/github/iMoods-NoMood.png)](https://youtu.be/I_DkwEnt5JM "iMoods")
 [![iMoods](http://www.tibimac.com/uploads_forums/github/iMoods-mood.png)](https://youtu.be/I_DkwEnt5JM "iMoods")
